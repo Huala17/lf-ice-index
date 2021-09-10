@@ -1,0 +1,137 @@
+.part-2{
+    display: flex;
+    padding: 5vw 10vw;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.part-2-1{
+    width: 35vw;
+    margin-right: 10vw;
+}
+.part-2-2{
+    width: 35vw;
+    height: 28.6vw;
+    margin-top: auto;margin-bottom: auto;
+}
+.image-2-1{
+    display: flex;
+    width: 35vw;
+    margin-bottom: 1vw;
+}
+.image-2-1-1{
+    width: 17vw;
+    height: 13.8vw;
+    margin-right: 1vw;
+    background-image: url(../image/image-2-2.jpg);
+    background-size: cover;
+}
+
+.image-2-1-2{
+    width: 17vw;
+    background-image: url(../image/image-2-1.jpg);
+    background-size: cover;
+}
+.image-2-2{
+    width: 35vw;
+    height: 13.8vw;
+    background-image: url(../image/image-2-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.title-m{
+    font-size: 50px;
+    font-weight: bold;
+    color: #4C2A1D;
+}
+.title-2-1{
+    margin: 100px 0 50px 0; 
+}
+.text-2-1{
+    font-size: 25px;
+    line-height: 40px;
+    color: #4C2A1D;
+    margin-bottom: 20px;
+}
+.more-2-1{
+    color: #AE684D;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media(max-width:1400px){
+    .title-m{
+        font-size: 30px;
+    }
+    .text-2-1{
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:1024px){
+    .title-2-1{
+        margin: 30px 0 30px 0; 
+    }
+}
+@media(max-width:768px){
+    .part-2{
+        flex-wrap: wrap;
+        padding: 5vw 10vw;
+        font-family: 'Noto Sans TC', sans-serif;
+    }
+    .part-2-1{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 5vw;
+    }
+    .title-m{
+        font-size: 50px;
+        font-weight: bold;
+        color: #4C2A1D;
+    }
+    .title-2-1{
+        margin: 0px 0 30px 0;
+        text-align: center;
+    }
+    .text-2-1{
+        font-size: 25px;
+        line-height: 40px;
+        color: #4C2A1D;
+        margin-bottom: 20px;
+    }
+    .part-2-2{
+        width: 100%;
+        height: 65vw;
+        margin-top: auto;margin-bottom: auto;
+    }
+    .image-2-1{
+        display: flex;
+        margin-bottom: 1vw;
+        width: 100%;
+        height: 50%;
+    }
+    .image-2-1-1{
+        width: 49.5%;
+        height: 100%;
+        margin-right: 1vw;
+        background-image: url(../image/image-2-2.jpg);
+        background-size: cover;
+    }
+    
+    .image-2-1-2{
+        width: 49.5%;
+        background-image: url(../image/image-2-1.jpg);
+        background-size: cover;
+    }
+    .image-2-2{
+        width: 100%;
+        height: 50%;
+        background-image: url(../image/image-2-3.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media(max-width:414px){
+    .part-2{
+        padding: 10vw 5vw;
+    }
+}

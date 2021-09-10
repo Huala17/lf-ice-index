@@ -1,0 +1,44 @@
+.part-5{
+    padding: 5vw 10vw;
+    background-color: #F9F0CF;
+}
+.title-5-1{
+    text-align: center;
+    margin-bottom: 20px; 
+}
+.td-5-a{
+    font-size: 30px;
+    font-weight: bold;
+    color: #4C2A1D;
+}
+.td-5-b{
+    font-size: 18px;
+    font-weight: bold;
+    color: #5E3424;
+}
+.td-5-c{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #5E3424;
+    text-align: center;
+}
+.td-5-d{
+    font-size: 20px;
+    color: #5E3424;
+    text-align: center;
+}
+@media(max-width:1400px){
+    .td-5-m{
+        font-size: 20px;
+    }
+    .td-5-s{
+        font-size: 16px;
+    }
+    .td-5-c{
+        font-size: 16px;
+    }
+    .td-5-d{
+        font-size: 16px;
+    }
+}
